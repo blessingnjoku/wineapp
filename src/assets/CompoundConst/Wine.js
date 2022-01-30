@@ -5,6 +5,8 @@ const Wine = [
        Caterory:'Vodka',
         DiscountPrice:'2500',
         mainPrice:'2000',
+        Details:"Cabernet sauvignon is a full-bodied, acidic wine made from the international red wine grape variety of the same name. It has strong tannins that mellow with age. ... The cabernet sauvignon grape is a hybrid grape, originally formed by the crossing of cabernet franc (a red grape) and sauvignon blanc (a white grape).",
+        Region:"France",
         image:require('../images/Vodka/vodka1.png'),
     },
     {
@@ -13,6 +15,9 @@ const Wine = [
         Caterory:'Red Wine',
         DiscountPrice:'3500',
         mainPrice:'3200',
+        Details:"Cabernet sauvignon is a full-bodied, acidic wine made from the international red wine grape variety of the same name. It has strong tannins that mellow with age. ... The cabernet sauvignon grape is a hybrid grape, originally formed by the crossing of cabernet franc (a red grape) and sauvignon blanc (a white grape).",
+        Region:"France",
+         
         image:require('../images/Vodka/vodka2.png'),
     },
     {
@@ -21,6 +26,9 @@ const Wine = [
         Caterory:'White Wine',
         DiscountPrice:'6000',
         mainPrice:'3000',
+        Details:"Cabernet sauvignon is a full-bodied, acidic wine made from the international red wine grape variety of the same name. It has strong tannins that mellow with age. ... The cabernet sauvignon grape is a hybrid grape, originally formed by the crossing of cabernet franc (a red grape) and sauvignon blanc (a white grape).",
+        Region:"France",
+        
         image:require('../images/Vodka/vodka3.png'),
     },
     {
@@ -29,6 +37,8 @@ const Wine = [
         Caterory:'Whiskey',
         DiscountPrice:'2500',
         mainPrice:'1500',
+        Details:"Cabernet sauvignon is a full-bodied, acidic wine made from the international red wine grape variety of the same name. It has strong tannins that mellow with age. ... The cabernet sauvignon grape is a hybrid grape, originally formed by the crossing of cabernet franc (a red grape) and sauvignon blanc (a white grape).",
+        Region:"France",
         image:require('../images/Vodka/vodka1.png'),
     },
     {
@@ -37,6 +47,9 @@ const Wine = [
         Caterory:'Brandy',
         DiscountPrice:'2500',
         mainPrice:'12000',
+        Details:"Cabernet sauvignon is a full-bodied, acidic wine made from the international red wine grape variety of the same name. It has strong tannins that mellow with age. ... The cabernet sauvignon grape is a hybrid grape, originally formed by the crossing of cabernet franc (a red grape) and sauvignon blanc (a white grape).",
+        Region:"France",
+         
         image:require('../images/FruitWine/fruitB.png'),
     },
     {
@@ -45,6 +58,9 @@ const Wine = [
         Caterory:'Tequila',
         DiscountPrice:'5500',
         mainPrice:'4000',
+        Details:"Cabernet sauvignon is a full-bodied, acidic wine made from the international red wine grape variety of the same name. It has strong tannins that mellow with age. ... The cabernet sauvignon grape is a hybrid grape, originally formed by the crossing of cabernet franc (a red grape) and sauvignon blanc (a white grape).",
+        Region:"France",
+        
         image:require('../images/Vodka/vodka2.png'),
     },
     {
@@ -53,6 +69,9 @@ const Wine = [
        Caterory:'Vodka',
         DiscountPrice:'2500',
         mainPrice:'2000',
+        Details:"Cabernet sauvignon is a full-bodied, acidic wine made from the international red wine grape variety of the same name. It has strong tannins that mellow with age. ... The cabernet sauvignon grape is a hybrid grape, originally formed by the crossing of cabernet franc (a red grape) and sauvignon blanc (a white grape).",
+        Region:"France",
+         
         image:require('../images/Vodka/vodka1.png'),
     },
     {
@@ -61,6 +80,8 @@ const Wine = [
         Caterory:'Red Wine',
         DiscountPrice:'3500',
         mainPrice:'3200',
+        Details:"Cabernet sauvignon is a full-bodied, acidic wine made from the international red wine grape variety of the same name. It has strong tannins that mellow with age. ... The cabernet sauvignon grape is a hybrid grape, originally formed by the crossing of cabernet franc (a red grape) and sauvignon blanc (a white grape).",
+        Region:"France",
         image:require('../images/Vodka/vodka2.png'),
     },
     {
@@ -69,6 +90,8 @@ const Wine = [
         Caterory:'White Wine',
         DiscountPrice:'6000',
         mainPrice:'3000',
+        Details:"Cabernet sauvignon is a full-bodied, acidic wine made from the international red wine grape variety of the same name. It has strong tannins that mellow with age. ... The cabernet sauvignon grape is a hybrid grape, originally formed by the crossing of cabernet franc (a red grape) and sauvignon blanc (a white grape).",
+        Region:"France",
         image:require('../images/Vodka/vodka3.png'),
     },
     {
@@ -77,6 +100,8 @@ const Wine = [
         Caterory:'Brandy',
         DiscountPrice:'2500',
         mainPrice:'12000',
+        Details:"Cabernet sauvignon is a full-bodied, acidic wine made from the international red wine grape variety of the same name. It has strong tannins that mellow with age. ... The cabernet sauvignon grape is a hybrid grape, originally formed by the crossing of cabernet franc (a red grape) and sauvignon blanc (a white grape).",
+        Region:"France",
         image:require('../images/FruitWine/fruitB.png'),
     },
     

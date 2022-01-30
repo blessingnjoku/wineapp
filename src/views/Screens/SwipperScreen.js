@@ -1,8 +1,13 @@
 import React from "react";
 import { Text,Platform, View, SafeAreaView, StyleSheet, Image} from "react-native";
+import Onboarding from 'react-native-onboarding-swiper';
 import COLORS from "../../assets/CompoundConst/Colors";
 import Colors from "../../assets/CompoundConst/Colors";
 import { PriButton } from "../Component/Buttons";
+import firstimage from "../../assets/images/firstimage.png"
+import Secondimage from "../../assets/images/Secondimage.png"
+import Thirdimage from "../../assets/images/Thirdimage.png"
+
 
 const styles = StyleSheet.create({
   container: {
@@ -79,8 +84,11 @@ const styles = StyleSheet.create({
 
 
 });
+
+
 const SwipperScreen = ({navigation}) => {
-  return (
+  return(
+ 
     <SafeAreaView style={styles.container}>
 
  <View style={styles.wrap}>

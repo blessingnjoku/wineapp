@@ -10,20 +10,25 @@ import 'react-native-gesture-handler'
 import SwipperScreen from "./src/views/Screens/SwipperScreen";
 import BottomNav from './src/views/Navigation/BottomNav';
 import DetailsScreen from "./src/views/Screens/DetailsScreen";
+import Checkout from './src/views/Screens/Checkout';
+import CheckoutScreen2 from './src/views/Screens/CheckoutScreen2';
+
 
 const Stack = createStackNavigator();
 
 
-const windowWidth = Dimensions.get('window').width;
-const windowHeight = Dimensions.get('window').height;
+
 const App = () => {
   return (
     <NavigationContainer>
       <StatusBar backgroundColor={COLORS.white} barStyle="dark-content" />
-      <Stack.Navigator screenOptions={{ headerShown:false,  }} initialRouteName="Home"  >
-        <Stack.Screen name="Welcome" component={SwipperScreen} />
-        <Stack.Screen name="Home" component={BottomNav} />
-        <Stack.Screen name="ProductDetails" component={DetailsScreen} />
+      <Stack.Navigator screenOptions={{ headerShown:false}} initialRouteName="Home"  >
+        <Stack.Screen name="onboarding" component={SwipperScreen} />
+        <Stack.Screen name="Home" component={BottomNav}   />
+        <Stack.Screen name="ProductDetails" component={DetailsScreen}  />
+        <Stack.Screen name="CheckoutScreen" component={Checkout}  />
+        {/* <Stack.Screen name="Checkout2" component={CheckoutScreen2} /> */}
+
       </Stack.Navigator>
     </NavigationContainer>
   );

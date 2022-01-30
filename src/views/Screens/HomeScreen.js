@@ -67,7 +67,6 @@ const styles=StyleSheet.create({
         backgroundColor:COLORS.white,
         justifyContent:'center',
         alignItems:'center',
-        width: '100%',
         shadowColor: '#171717',
         shadowOffset: {width: -2, height: 4},
         shadowOpacity: 0.2,
@@ -198,6 +197,7 @@ const HomeScreen =({navigation})=> {
               </View>
               <View style={{marginTop:15,}}><ListOfCartegories/></View>
               <FlatList showsHorizontalScrollIndicator={false} showsVerticalScrollIndicator={false}
+              contentContainerStyle={{paddingBottom:200,}}
               numColumns={2}
               data={Wine}
               renderItem={({item})=><Card Wine={item}/>}

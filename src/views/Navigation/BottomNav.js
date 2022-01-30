@@ -39,7 +39,7 @@ const BottomNav = () => {
       </View>
   )}}/>
 
-    <Tab.Screen name="Favorite" component={HomeScreen} options={{tabBarIcon: ({color})=> <Icon name="home-filled" color={color} size={28}/>}}/>
+    <Tab.Screen name="Favorite" component={HomeScreen} options={{tabBarIcon: ({color})=> <Icon name="favorite" color={color} size={28}/>}}/>
     <Tab.Screen name="Cart" component={CartScreen} options={{tabBarIcon: ({color})=> <Icon name="shopping-cart" color={color} size={28}/>}}/>
    
   </Tab.Navigator>

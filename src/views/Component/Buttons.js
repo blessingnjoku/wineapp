@@ -30,4 +30,22 @@ const PriButton=({title, onPress =()=>{}})=>{
     </TouchableOpacity>
 
 }
-export {PriButton};
+
+const SecButton=({title, onPress =()=>{}})=>{
+    return<TouchableOpacity activeOpacity={0.8} onPress={onPress}>
+        <View style={{...styles.btn, backgroundColor:COLORS.white}}>
+            <Text style={{...styles.btnText, color:COLORS.primaryColor}}>{title}</Text>
+        </View>
+    </TouchableOpacity>
+
+}
+
+const ApplyButton=({title, onPress =()=>{}})=>{
+    return<TouchableOpacity activeOpacity={0.8} onPress={onPress}>
+        <View style={{...styles.btn, backgroundColor:COLORS.green, width:80,height:35}}>
+            <Text style={{...styles.btnText, color:COLORS.white, fontSize:12}}>{title}</Text>
+        </View>
+    </TouchableOpacity>
+
+}
+export {PriButton,SecButton,ApplyButton};
